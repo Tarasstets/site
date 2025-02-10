@@ -1,3 +1,12 @@
-@import "global.css";
-@import "index.main-animals.css";
-@import "index.main-content.css";
+@import "./global.css" ;
+@import "./global.header-nav.css" ;
+@import "./index.hero.css" ;
+@import "./index.advantages.css" ;
+@import "./index.popular-tours.css" ;
+@import "./index.about-the-company.css" ;
+@import "./index.main-content.css" ;
+@import "./index.main-animals.css" ;
+@import "./index.national-park.css" ;
+@import "./index.individual-tour.css" ;
+@import "./index.review.css" ;
+@import "./index.blog.css" ;
