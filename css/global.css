@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 
 *,
 *::after,
@@ -10,29 +10,39 @@
 
 :root {
   scroll-behavior: smooth;
+  --subtitle-color: rgb(175, 175, 175);
+  --color-accent: rgb(243, 42, 42);
+  --color-background-muted: rgb(34, 34, 34);
+  --color-secondary-dark: #151515;
+  --primary-color: rgb(247, 199, 2);
+  --base-color: rgb(255, 255, 255);
+  font-family: "Titillium Web", sans-serif;
 }
 
 body {
-    background-color: black;
- 
+  background-color: black;
 }
-h1,h2,h3,h4,h5,h6,p {
-
-    color: white;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: white;
 }
 a {
-    color: rgb(241, 126, 18);
-  }
-  
-a:visited {
-    color: rgb(252, 165, 5);
-  }
-  
-a:hover {
-    color: rgb(231, 200, 20);
-  }
-  
-a:active {
-    color: rgb(241, 201, 20);
-  }
+  color: rgb(241, 126, 18);
+}
 
+a:visited {
+  color: rgb(252, 165, 5);
+}
+
+a:hover {
+  color: rgb(231, 200, 20);
+}
+
+a:active {
+  color: rgb(241, 201, 20);
+}
